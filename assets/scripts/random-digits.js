@@ -1,17 +1,3 @@
-// function generateNumbers(min, max) {
-//   // min = Math.ceil(-10);
-//   // max = Math.floor(10);
-//   //
-//   //   numbersArray.push(Math.round(Math.random() * 10));
-//   return Math.round(Math.random() * (max - min) + min);
-
-//   //   numbersArray.push(Math.round(Math.random() * -10));
-//   //     numbersArray.push(Math.round(Math.random() * 10));
-//   //     numbersArray.push(Math.round(Math.random() * -10));
-
-//   //   document.getElementById("generated").innerHTML = numbersArray;
-//   //   console.log(numbersArray);
-// }
 function generateNumbers() {
   let min = -10;
   let max = 10;
@@ -32,23 +18,24 @@ function generateNumbers() {
 
   console.log("Сгенерированный массив: " + numbersArray);
   document.getElementById("generated").innerHTML =
-    "Generated array : " + numbersArray;
+    "Generated array  :   " + numbersArray;
 
   console.log("Минимальное значение: " + minimalNumber);
   document.getElementById("minimal").innerHTML =
-    "Minimal number: " + minimalNumber;
+    "Minimal number  :   " + minimalNumber;
 
   console.log("Максимальное значение: " + maximalNumber);
   document.getElementById("maximal").innerHTML =
-    "Maximal number: " + maximalNumber;
+    "Maximal number  :   " + maximalNumber;
 
   average = summ / 10;
   console.log("Среднее арифметическое: " + average);
-  document.getElementById("average").innerHTML = "Average: " + average;
+  document.getElementById("average").innerHTML = "Average  :   " + average;
 
   console.log("Сумма чисел массива: " + summ);
-  document.getElementById("summ").innerHTML = "Sum: " + summ;
+  document.getElementById("summ").innerHTML = "Sum  :   " + summ;
 
   console.log("Произведение чисел массива: " + multiply);
-  document.getElementById("product").innerHTML = "Multiplication: " + multiply;
+  document.getElementById("product").innerHTML =
+    "Multiplication  :   " + multiply;
 }

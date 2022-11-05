@@ -5,25 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/random-digits.css">
     <title>Random Digits</title>
 </head>
 
 <body>
-    <h1>Random Digits</h1>
-    <p>Need 10 random numbers? Click the button "RANDOM"</p>
-    <button onclick="generateNumbers()">RANDOM</button>
+    <div class="content">
+        <h1>Random Digits</h1>
+        <p>Need 10 random numbers? Click the button "RANDOM"</p>
+        <button onclick="generateNumbers()">RANDOM</button>
+        <div class="results">
+            <div id="generated"></div>
+            <div id="minimal"></div>
+            <div id="maximal"></div>
+            <div id="average"></div>
+            <div id="summ"></div>
+            <div id="product"></div>
+        </div>
+    </div>
 
-    <div id="generated"></div>
-    <div id="minimal"></div>
-    <div id="maximal"></div>
-    <div id="average"></div>
-    <div id="summ"></div>
-    <div id="product"></div>
 
-
-
-
-    <script src="random-digits.js"></script>
+    <script src="./assets/scripts/random-digits.js"></script>
 </body>
 
 </html>
